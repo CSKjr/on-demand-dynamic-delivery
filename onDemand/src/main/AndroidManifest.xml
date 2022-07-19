@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    package="com.csk.ondemand">
+
+    <dist:module
+        dist:instant="false"
+        dist:title="@string/title_ondemand">
+        <dist:delivery>
+            <dist:on-demand />
+        </dist:delivery>
+
+        <dist:fusing dist:include="true" />
+    </dist:module>
+
+    <application>
+        <activity
+            android:name=".OnDemandActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">On Demand Dynamic Delivery</string>
+    <string name="on_install">On Install</string>
+    <string name="on_demand">On Demand</string>
+    <string name="title_oninstall">On Install</string>
+    <string name="title_ondemand">On Demand</string>
+    <string name="oninstall_activity">On Install Activity</string>
+    <string name="ondemand_activity">On Demand Activity</string>
+</resources>
